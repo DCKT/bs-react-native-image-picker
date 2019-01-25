@@ -11,7 +11,7 @@
     "react-native",
     "image-picker"
   ],
-  "author": "",
+  "author": "Thomas Deconinck",
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^4.0.18"
