@@ -1,18 +1,34 @@
-# Basic Reason Template
+# bs-react-native-image-picker
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+Bindings of react-native-image-picker module
 
-# Build
+## Setup
+
+```
+yarn add bs-react-native-image-picker
+```
+
+Add it to your dependencies in `bsconfig.json` :
+
+```
+"bs-dependencies": [
+  ...,
+  "bs-react-native-image-picker"
+],
+```
+
+You will have access to `BsReactNativeImagePicker` module.
+
+## Dev
+
+### Build
+
 ```
 npm run build
 ```
 
-# Build + Watch
+### Build + Watch
 
 ```
 npm run start
 ```
-
-
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
