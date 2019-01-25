@@ -1,6 +1,6 @@
 # bs-react-native-image-picker
 
-Bindings of react-native-image-picker module
+BuckleScript bindings of react-native-image-picker module
 
 ## Installation
 
@@ -18,6 +18,8 @@ Add it to your dependencies in `bsconfig.json` :
 ```
 
 You will have access to `RNImagePicker` module.
+
+⚠️ Note : The argument `type` from response payload has been called `fileType`.
 
 ## Dev
 
