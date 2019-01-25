@@ -1,17 +1,23 @@
 {
   "name": "bs-react-native-image-picker",
+  "description": "BuckleScript bindings for react-native-image-picker module",
   "version": "1.0.2",
+  "repository": "git@github.com:DCKT/bs-react-native-image-paper.git",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },
+  "peerDependencies": {
+    "react-native-image-picker": "^0.28.0"
+  },
   "keywords": [
-    "BuckleScript",
+    "reason",
+    "bucklescript",
     "react-native",
     "image-picker"
   ],
-  "author": "Thomas Deconinck",
+  "author": "Thomas Deconinck <tqs.deconinck@gmail.com>",
   "license": "Apache",
   "devDependencies": {
     "bs-platform": "^4.0.18"
